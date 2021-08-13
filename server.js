@@ -4,12 +4,11 @@ const path = require("path");
 const PORT = process.env.PORT || 3001;
 const app = express();
 
-app.use(express.static('public'));
-app.get("/", (request, response) => response.send("Click here to start"));
-
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
+app.get("/", (request, response) => response.send("Click here to start"));
 app.get("/notes", (request, response) => {
     fs.sendFile(path.join(__dirname, "public/notes.html"));
 });
