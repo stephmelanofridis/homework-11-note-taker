@@ -12,6 +12,19 @@ For this weeks homework we were supplied starter code for a front end applicatio
 
 ## Usage 
 
+1. Follow the link to the deployed app on Heroku: https://note-taker-stephmelanofridis.herokuapp.com/
+
+2. Click "Get Started".
+
+![image](https://user-images.githubusercontent.com/82196946/129472280-38bf5876-7cf9-4351-82f4-024303900040.png)
+
+3. Enter a note title and note text to activate the save button. 
+
+![image](https://user-images.githubusercontent.com/82196946/129472324-82cd0b88-15cb-4bbe-a935-5b0a71855530.png)
+
+4. Notes will save down the left hand side. When they are no longer needed, press the red delete bin and they will disappear.
+
+
 ## License
 
 MIT License
@@ -32,6 +45,7 @@ Anyone can contribute
 
 * GitHub URL: https://github.com/stephmelanofridis
 * Project URL: https://github.com/stephmelanofridis/homework-11-note-taker
+* Project Deployed to Heroku: https://note-taker-stephmelanofridis.herokuapp.com/
 * Email: stephmelanofridis@bigpond.com
     
 Please feel free to email me at any time if you have any questions or concerns regarding this project.
